@@ -27,8 +27,12 @@ h1 {
 
 label {
     font-weight: bold;
-    display: block;
+    display: inline-block;
     margin-bottom: 5px;
+}
+
+span{
+    font-weight: bolder;
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="date"], select {

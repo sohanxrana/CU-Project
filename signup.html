@@ -11,11 +11,11 @@
       <h1>Hall Reservation Form</h1>
       <form id="signup" method="post" action="model/addcuinfo.php">
         <div class="form-group">
-          <label for="uid">User ID:</label>
+          <label for="uid">User ID</label> <span style="color: red;">*</span>
           <input type="text" id="uid" name="uid" required>
         </div>
         <div class="form-group">
-          <label for="username">Username:</label>
+          <label for="username">Username</label><span style="color: red;"> *</span>
           <input type="text" id="username" name="username" required>
         </div>
         <div class="form-group">
@@ -31,11 +31,11 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="email">Email:</label>
+          <label for="email">Email</label><span style="color: red;"> *</span>
           <input type="email" id="email" name="email" required>
         </div>
         <div class="form-group">
-          <label for="phone_number">Phone:</label>
+          <label for="phone_number">Phone</label><span style="color: red;"> *</span>
           <input type="tel" id="phone" name="phone" required>
         </div>
         <div class="form-group">
@@ -49,7 +49,7 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="preferred_hall">Preferred Hall:</label>
+          <label for="preferred_hall">Preferred Hall</label><span style="color: red;"> *</span>
           <select id="preferred_hall" name="preferred_hall">
             <option value="Mokbul Hossain Hall">Mokbul Hossain Hall</option>
             <option value="Fazlur Rahman Hall">Fazlur Rahman Hall</option>
@@ -58,7 +58,7 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="room_type">Room Type:</label>
+          <label for="room_type">Room Type:</label><span style="color: red;"> *</span>
           <select id="room_type" name="room_type">
             <option value="single">Single</option>
             <option value="double">Double</option>
@@ -70,11 +70,11 @@
           <input type="date" id="move_in_date" name="move_in_date">
         </div>
         <div class="form-group">
-          <label for="password">Password:</label>
+          <label for="password">Password</label><span style="color: red;"> *</span>
           <input type="password" id="password" name="password" required>
         </div>
         <div class="form-group">
-          <label for="confirm_password">Confirm Password:</label>
+          <label for="confirm_password">Confirm Password</label> <span style="color: red;">*</span>
           <input type="password" id="confirm_password" name="confirm_password" required>
         </div>
         <div class="form-group">
