@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hall Reservation Form</h1>
+      <h1>Hall Registration Form</h1>
       <form id="signup" method="post" action="model/addcuinfo.php">
         <div class="form-group">
           <label for="uid">User ID</label> <span style="color: red;">*</span>
@@ -25,6 +25,7 @@
         <div class="form-group">
           <label for="gender">Gender:</label>
           <select id="gender" name="gender">
+            <option value="gen">Select Gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
@@ -36,11 +37,12 @@
         </div>
         <div class="form-group">
           <label for="phone_number">Phone</label><span style="color: red;"> *</span>
-          <input type="tel" id="phone" name="phone" required>
+          <input type="tel" id="phone" name="phone" placeholder="+8801XXXXXXXXX" required>
         </div>
         <div class="form-group">
           <label for="hometown">Hometown:</label>
           <select id="hometown" name="hometown">
+            <option value="opt">Select</option>
             <option value="Dhaka">Dhaka</option>
             <option value="Tangail">Tangail</option>
             <option value="Rajshahi">Rajshahi</option>
@@ -51,6 +53,7 @@
         <div class="form-group">
           <label for="preferred_hall">Preferred Hall</label><span style="color: red;"> *</span>
           <select id="preferred_hall" name="preferred_hall">
+            <option value="hall">Select Your Hall</option>
             <option value="Mokbul Hossain Hall">Mokbul Hossain Hall</option>
             <option value="Fazlur Rahman Hall">Fazlur Rahman Hall</option>
             <option value="Fatema Hall">Fatema Hall</option>
@@ -58,7 +61,7 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="room_type">Room Type:</label><span style="color: red;"> *</span>
+          <label for="room_type">Room Type</label><span style="color: red;"> *</span>
           <select id="room_type" name="room_type">
             <option value="single">Single</option>
             <option value="double">Double</option>

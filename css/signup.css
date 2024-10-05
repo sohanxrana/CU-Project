@@ -58,6 +58,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #45a049;
+    transition: 1s;
 }
 
 footer {
